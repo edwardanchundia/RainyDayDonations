@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28B4F83F1E2447860088C5E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B4F83E1E2447860088C5E8 /* AppDelegate.swift */; };
+		28B4F8411E2447860088C5E8 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B4F8401E2447860088C5E8 /* ProfileViewController.swift */; };
+		28B4F8441E2447870088C5E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28B4F8421E2447870088C5E8 /* Main.storyboard */; };
+		28B4F8471E2447870088C5E8 /* RainyDayDonation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 28B4F8451E2447870088C5E8 /* RainyDayDonation.xcdatamodeld */; };
+		28B4F8491E2447870088C5E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28B4F8481E2447870088C5E8 /* Assets.xcassets */; };
+		28B4F84C1E2447870088C5E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28B4F84A1E2447870088C5E8 /* LaunchScreen.storyboard */; };
+		570893331E25365200FF7AB2 /* Project+Addition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570893321E25365200FF7AB2 /* Project+Addition.swift */; };
+		573B264C1E258E9E004BC63F /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573B264B1E258E9E004BC63F /* ProfileTableViewCell.swift */; };
+		573B26521E269EA7004BC63F /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573B26511E269EA7004BC63F /* MapViewController.swift */; };
+		573B26541E26A354004BC63F /* Classroom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573B26531E26A354004BC63F /* Classroom.swift */; };
+		573B26561E26CB4F004BC63F /* LocationMapAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573B26551E26CB4F004BC63F /* LocationMapAnnotation.swift */; };
+		579DAD8C1E28907000C693DD /* ProjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579DAD8B1E28907000C693DD /* ProjectViewController.swift */; };
+		579DAD8E1E2890AC00C693DD /* APIRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579DAD8D1E2890AC00C693DD /* APIRequestManager.swift */; };
+		B8FC184E9CAE719A7197394E /* Pods_RainyDayDonation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 986E22974CD4514BB99A9F28 /* Pods_RainyDayDonation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		28B4F83B1E2447860088C5E8 /* RainyDayDonation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RainyDayDonation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28B4F83E1E2447860088C5E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		28B4F8401E2447860088C5E8 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		28B4F8431E2447870088C5E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		28B4F8461E2447870088C5E8 /* RainyDayDonation.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RainyDayDonation.xcdatamodel; sourceTree = "<group>"; };
+		28B4F8481E2447870088C5E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28B4F84B1E2447870088C5E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		28B4F84D1E2447870088C5E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38994E69D7610C1C523F4352 /* Pods-RainyDayDonation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RainyDayDonation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RainyDayDonation/Pods-RainyDayDonation.debug.xcconfig"; sourceTree = "<group>"; };
+		570893321E25365200FF7AB2 /* Project+Addition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Project+Addition.swift"; sourceTree = "<group>"; };
+		573B264B1E258E9E004BC63F /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileTableViewCell.swift; sourceTree = "<group>"; };
+		573B26511E269EA7004BC63F /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		573B26531E26A354004BC63F /* Classroom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Classroom.swift; sourceTree = "<group>"; };
+		573B26551E26CB4F004BC63F /* LocationMapAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationMapAnnotation.swift; sourceTree = "<group>"; };
+		579DAD8B1E28907000C693DD /* ProjectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectViewController.swift; sourceTree = "<group>"; };
+		579DAD8D1E2890AC00C693DD /* APIRequestManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRequestManager.swift; sourceTree = "<group>"; };
+		986E22974CD4514BB99A9F28 /* Pods_RainyDayDonation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RainyDayDonation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DFE602CC8A74D50E665199F /* Pods-RainyDayDonation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RainyDayDonation.release.xcconfig"; path = "Pods/Target Support Files/Pods-RainyDayDonation/Pods-RainyDayDonation.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28B4F8381E2447860088C5E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8FC184E9CAE719A7197394E /* Pods_RainyDayDonation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28B4F8321E2447860088C5E8 = {
+			isa = PBXGroup;
+			children = (
+				28B4F83D1E2447860088C5E8 /* RainyDayDonation */,
+				5744E91E1E24705D0091FEFB /* Supported Files */,
+				28B4F83C1E2447860088C5E8 /* Products */,
+				944E36A435089831A57BC441 /* Pods */,
+				ECCAA935C7DF5F483CAB25F8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		28B4F83C1E2447860088C5E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28B4F83B1E2447860088C5E8 /* RainyDayDonation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28B4F83D1E2447860088C5E8 /* RainyDayDonation */ = {
+			isa = PBXGroup;
+			children = (
+				573B264D1E25E549004BC63F /* APIRequestManager */,
+				573B264E1E25E563004BC63F /* View Controller */,
+				28B4F8421E2447870088C5E8 /* Main.storyboard */,
+				573B264F1E25E574004BC63F /* Model */,
+				573B26501E25E57A004BC63F /* Extension */,
+			);
+			path = RainyDayDonation;
+			sourceTree = "<group>";
+		};
+		573B264D1E25E549004BC63F /* APIRequestManager */ = {
+			isa = PBXGroup;
+			children = (
+				579DAD8D1E2890AC00C693DD /* APIRequestManager.swift */,
+			);
+			name = APIRequestManager;
+			sourceTree = "<group>";
+		};
+		573B264E1E25E563004BC63F /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				573B26511E269EA7004BC63F /* MapViewController.swift */,
+				579DAD8B1E28907000C693DD /* ProjectViewController.swift */,
+				28B4F8401E2447860088C5E8 /* ProfileViewController.swift */,
+				573B264B1E258E9E004BC63F /* ProfileTableViewCell.swift */,
+			);
+			name = "View Controller";
+			sourceTree = "<group>";
+		};
+		573B264F1E25E574004BC63F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				573B26531E26A354004BC63F /* Classroom.swift */,
+				573B26551E26CB4F004BC63F /* LocationMapAnnotation.swift */,
+				28B4F8451E2447870088C5E8 /* RainyDayDonation.xcdatamodeld */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		573B26501E25E57A004BC63F /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				570893321E25365200FF7AB2 /* Project+Addition.swift */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		5744E91E1E24705D0091FEFB /* Supported Files */ = {
+			isa = PBXGroup;
+			children = (
+				28B4F83E1E2447860088C5E8 /* AppDelegate.swift */,
+				28B4F8481E2447870088C5E8 /* Assets.xcassets */,
+				28B4F84A1E2447870088C5E8 /* LaunchScreen.storyboard */,
+				28B4F84D1E2447870088C5E8 /* Info.plist */,
+			);
+			name = "Supported Files";
+			path = RainyDayDonation;
+			sourceTree = "<group>";
+		};
+		944E36A435089831A57BC441 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				38994E69D7610C1C523F4352 /* Pods-RainyDayDonation.debug.xcconfig */,
+				9DFE602CC8A74D50E665199F /* Pods-RainyDayDonation.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ECCAA935C7DF5F483CAB25F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				986E22974CD4514BB99A9F28 /* Pods_RainyDayDonation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28B4F83A1E2447860088C5E8 /* RainyDayDonation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28B4F8501E2447870088C5E8 /* Build configuration list for PBXNativeTarget "RainyDayDonation" */;
+			buildPhases = (
+				818F08A4D7AEF6B425F50019 /* [CP] Check Pods Manifest.lock */,
+				28B4F8371E2447860088C5E8 /* Sources */,
+				28B4F8381E2447860088C5E8 /* Frameworks */,
+				28B4F8391E2447860088C5E8 /* Resources */,
+				327550677449E1A337EF63CC /* [CP] Embed Pods Frameworks */,
+				C7E86AC6C099B035274D3FE7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RainyDayDonation;
+			productName = RainyDayDonation;
+			productReference = 28B4F83B1E2447860088C5E8 /* RainyDayDonation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28B4F8331E2447860088C5E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Margaret Ikeda, Simone Grant, Edward Anchundia, Miti Shah";
+				TargetAttributes = {
+					28B4F83A1E2447860088C5E8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = G33WGC6L8H;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 28B4F8361E2447860088C5E8 /* Build configuration list for PBXProject "RainyDayDonation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28B4F8321E2447860088C5E8;
+			productRefGroup = 28B4F83C1E2447860088C5E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28B4F83A1E2447860088C5E8 /* RainyDayDonation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28B4F8391E2447860088C5E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28B4F84C1E2447870088C5E8 /* LaunchScreen.storyboard in Resources */,
+				28B4F8491E2447870088C5E8 /* Assets.xcassets in Resources */,
+				28B4F8441E2447870088C5E8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		327550677449E1A337EF63CC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RainyDayDonation/Pods-RainyDayDonation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		818F08A4D7AEF6B425F50019 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C7E86AC6C099B035274D3FE7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RainyDayDonation/Pods-RainyDayDonation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28B4F8371E2447860088C5E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				579DAD8C1E28907000C693DD /* ProjectViewController.swift in Sources */,
+				573B264C1E258E9E004BC63F /* ProfileTableViewCell.swift in Sources */,
+				570893331E25365200FF7AB2 /* Project+Addition.swift in Sources */,
+				28B4F8411E2447860088C5E8 /* ProfileViewController.swift in Sources */,
+				28B4F83F1E2447860088C5E8 /* AppDelegate.swift in Sources */,
+				579DAD8E1E2890AC00C693DD /* APIRequestManager.swift in Sources */,
+				28B4F8471E2447870088C5E8 /* RainyDayDonation.xcdatamodeld in Sources */,
+				573B26521E269EA7004BC63F /* MapViewController.swift in Sources */,
+				573B26561E26CB4F004BC63F /* LocationMapAnnotation.swift in Sources */,
+				573B26541E26A354004BC63F /* Classroom.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		28B4F8421E2447870088C5E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28B4F8431E2447870088C5E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		28B4F84A1E2447870088C5E8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28B4F84B1E2447870088C5E8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28B4F84E1E2447870088C5E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		28B4F84F1E2447870088C5E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28B4F8511E2447870088C5E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38994E69D7610C1C523F4352 /* Pods-RainyDayDonation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G33WGC6L8H;
+				INFOPLIST_FILE = RainyDayDonation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = C4Q.RainyDayDonation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		28B4F8521E2447870088C5E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DFE602CC8A74D50E665199F /* Pods-RainyDayDonation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G33WGC6L8H;
+				INFOPLIST_FILE = RainyDayDonation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = C4Q.RainyDayDonation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28B4F8361E2447860088C5E8 /* Build configuration list for PBXProject "RainyDayDonation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28B4F84E1E2447870088C5E8 /* Debug */,
+				28B4F84F1E2447870088C5E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28B4F8501E2447870088C5E8 /* Build configuration list for PBXNativeTarget "RainyDayDonation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28B4F8511E2447870088C5E8 /* Debug */,
+				28B4F8521E2447870088C5E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		28B4F8451E2447870088C5E8 /* RainyDayDonation.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				28B4F8461E2447870088C5E8 /* RainyDayDonation.xcdatamodel */,
+			);
+			currentVersion = 28B4F8461E2447870088C5E8 /* RainyDayDonation.xcdatamodel */;
+			path = RainyDayDonation.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 28B4F8331E2447860088C5E8 /* Project object */;
+}
