@@ -9,6 +9,6 @@ For the sake of privacy, the transaction was not shown on the demo.
 
 After the user is done with the transaction, the information is saved localy with the help of Core Data. This information can be view on the profile page.
 
-<img src="https://github.com/edwardanchundia/RainyDayDonations/blob/master/Rainyday_Donation_start_up.gif?raw=true" width="320" />
+<img src="https://github.com/edwardanchundia/RainyDayDonations/blob/master/Rainyday_Donations.gif?raw=true" width="320" />
 
 Future expansion is currently under development.
